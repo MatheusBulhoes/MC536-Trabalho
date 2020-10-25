@@ -12,3 +12,9 @@ A princípio adotaremos a seguinte metodologia para realização do nosso projet
 * Para tentar minimizar as influências sociais e governamentais, faremos comparações entre os dados referentes a todos os períodos analisados do mesmo país.
 * Por fim, iremos observar os padrões existentes ao compararmos a evolução da doença em todos os países escolhidos
 # Base de dados
+Selecionamos algumas bases de dados para serem candidatas a utilizarmos. Seus dados se aproximam, em sua maioria, das informações que desejamos para subsidiar nossa análise, são elas:
+
+* Open Weather Map (https://openweathermap.org/history)
+* Covid19 API (https://api.covid19api.com/)
+* World Health Organization (https://covid19.who.int/table)
+* Ip Geolocation API (https://api.ipgeolocationapi.com/countries)
