@@ -1,0 +1,29 @@
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/MatheusBulhoes/MC536-Trabalho/main/stage04/countries_weather.csv' AS line
+CREATE (:Country {nome:line.country, temp: line.temp, pressure: line.pressure, humidity: line.humidity})
+
+CREATE INDEX ON :Country(nome)
+
+MATCH (c1:Country)
+MATCH (c2:Country)
+WHERE ABS(toFloat(c1.temp) - toFloat(c2.temp)) < 1 AND c1 <> c2
+CREATE (c1)-[:similar_temperature]->(c2)
+
+MATCH (c1:Country)
+MATCH (c2:Country)
+WHERE ABS(toFloat(c1.pressure) - toFloat(c2.pressure)) < 1 AND c1 <> c2
+CREATE (c1)-[:similar_pressure]->(c2)
+
+MATCH (c1:Country)
+MATCH (c2:Country)
+WHERE ABS(toFloat(c1.humidity) - toFloat(c2.humidity)) < 3 AND c1 <> c2
+CREATE (c1)-[:similar_humidity]->(c2)
+
+MATCH p=(c1)-[:similar_humidity]->(c2)<-[:similar_pressure]-(c1)-[:similar_temperature]->(c2)
+CREATE (c1)-[:similar]->(c2)
+
+CALL gds.graph.create('similarCountries','Country',{similar: {orientation:'UNDIRECTED'}})
+
+CALL gds.louvain.stream('similarCountries')
+YIELD nodeId, communityId
+MATCH (c:Country {nome: gds.util.asNode(nodeId).nome})
+SET c.community = communityId
