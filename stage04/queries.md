@@ -33,6 +33,19 @@ MATCH p=(c1)-[:similar_humidity]->(c2)<-[:similar_pressure]-(c1)-[:similar_tempe
 CREATE (c1)-[:similar]->(c2)
 ~~~
 
+* E deletaremos as outras relações de similaridade para que os grafos não fiquem visualmente poluídos
+
+~~~cypher
+MATCH p=()-[r:similar_temperature]->()
+DELETE r
+
+MATCH p=()-[r:similar_humidity]->()
+DELETE r
+
+MATCH p=()-[r:similar_pressure]->()
+DELETE r
+~~~
+
 * É possível agora, utilizar o algoritmo de comunidade para relacionar vários países que são similares entre si
 
 ~~~cypher
