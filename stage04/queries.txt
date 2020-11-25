@@ -5,17 +5,17 @@ CREATE INDEX ON :Country(nome)
 
 MATCH (c1:Country)
 MATCH (c2:Country)
-WHERE ABS(toFloat(c1.temp) - toFloat(c2.temp)) < 1 AND c1 <> c2
+WHERE ABS(toFloat(c1.temp) - toFloat(c2.temp)) < 4 AND c1 <> c2
 CREATE (c1)-[:similar_temperature]->(c2)
 
 MATCH (c1:Country)
 MATCH (c2:Country)
-WHERE ABS(toFloat(c1.pressure) - toFloat(c2.pressure)) < 1 AND c1 <> c2
+WHERE ABS(toFloat(c1.pressure) - toFloat(c2.pressure)) < 6 AND c1 <> c2
 CREATE (c1)-[:similar_pressure]->(c2)
 
 MATCH (c1:Country)
 MATCH (c2:Country)
-WHERE ABS(toFloat(c1.humidity) - toFloat(c2.humidity)) < 3 AND c1 <> c2
+WHERE ABS(toFloat(c1.humidity) - toFloat(c2.humidity)) < 10 AND c1 <> c2
 CREATE (c1)-[:similar_humidity]->(c2)
 
 MATCH p=(c1)-[:similar_humidity]->(c2)<-[:similar_pressure]-(c1)-[:similar_temperature]->(c2)
@@ -27,3 +27,18 @@ CALL gds.louvain.stream('similarCountries')
 YIELD nodeId, communityId
 MATCH (c:Country {nome: gds.util.asNode(nodeId).nome})
 SET c.community = communityId
+
+MATCH (c)-[:similar]->(c1)
+MERGE (c)-[r:count]->()
+ON CREATE SET r.similarity=1
+ON MATCH SET r.similarity=r.similarity+1
+
+MATCH ()<-[r:count]-(c1)-[s:similar]->(c2)
+WHERE r.similarity < 10
+RETURN c1,c2
+LIMIT 50
+
+MATCH ()<-[r:count]-(c1)-[s:similar]->(c2)
+WHERE r.similarity > 25
+RETURN c1,c2
+LIMIT 30
