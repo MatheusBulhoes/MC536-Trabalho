@@ -18,15 +18,17 @@ CLIMA(_País_, Temperatura, Pressão, Umidade)
 ## Programa de extração e conversão de dados atualizado
 
 > Código utilizado para a criação da tabela
+---
 > [Link para o Notebook](https://github.com/MatheusBulhoes/MC536-Trabalho/blob/main/stage04/notebooks/convert.ipynb)
 
 ## Conjunto de queries de dois modelos
 
 > Queries realizadas nesta etapa
+---
 > [Link para o Notebook](https://github.com/MatheusBulhoes/MC536-Trabalho/blob/main/stage04/src/queries.md)
 
 ## Bases de Dados
-> Elencar as bases de dados utilizadas no projeto. Trata-se de uma atualização daquelas apresentadas na Etapa 3.
+> Bases de dados da etapa 4
 
 título da base | link | breve descrição
 ----- | ----- | -----
@@ -35,8 +37,10 @@ Open Weather Map | http://api.openweathermap.org/data/ |  Contém os dados de te
 
 
 ## Arquivos de Dados
-> Elencar os arquivos usados no projeto que estão disponíveis no Github do projeto (manter os da Etapa 3 e acrescentar os da Etapa 4).
+> Arquivos de dados das etapas 3 e 4
 
 nome do arquivo | link | breve descrição
 ----- | ----- | -----
+Covid | https://github.com/MatheusBulhoes/MC536-Trabalho/blob/main/stage03/data/covid.csv | Tabela que apresenta os dados de Covid no Brasil para um certo intervalo de datas
+Temperatura | https://github.com/MatheusBulhoes/MC536-Trabalho/blob/main/stage03/data/weather.csv | Tabela que apresenta os dados da temperatura no Brasil para um certo intervalo de datas
 Clima-Países | https://github.com/MatheusBulhoes/MC536-Trabalho/blob/main/stage04/data/countries_weather.csv | Tabela relacionando os dados climáticos de todos os países
