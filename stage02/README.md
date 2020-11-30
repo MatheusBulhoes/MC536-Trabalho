@@ -20,4 +20,4 @@ World Weather Online | https://www.worldweatheronline.com/developer/api/docs/loc
 Covid19 API | https://api.covid19api.com/ | Contém os principais dados da covid, como contaminação, mortes e recuperados, em todos os países
 World Health Organization | https://covid19.who.int/table | Apresenta informações gerais relevantes para serem adicionadas ao estudo, não necessariamente será usada diretamente para reacionar os dados
 Ip Geolocation API | https://api.ipgeolocationapi.com/countries | Contém as coordenadas geográficas da maioria das cidades e países. Será usada em conjunto com a Open Weather Map pois essa requer as coordenadas para buscar os dados climáticos
-Open Weather Map | http://api.openweathermap.org/data/ | Contém os países e suas respectivas latitude, longitude, temperatura, pressão e umidade
+Open Weather Map | http://api.openweathermap.org/data/ | Contém os dados de temperatura, pressão e umidade dos países a partir de sua latitude e longitude
