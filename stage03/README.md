@@ -26,7 +26,7 @@ World Weather Online | https://www.worldweatheronline.com/developer/api/docs/loc
 
 
 ## Arquivos de Dados
-> Elencar os arquivos usados no projeto que estão disponíveis no Github do projeto.
+> Arquivos usados no projeto que estão disponíveis no Github do projeto.
 
 nome do arquivo | link | breve descrição
 ----- | ----- | -----
