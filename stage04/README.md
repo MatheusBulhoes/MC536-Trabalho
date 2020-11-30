@@ -18,12 +18,12 @@ CLIMA(_País_, Temperatura, Pressão, Umidade)
 ## Programa de extração e conversão de dados atualizado
 
 > Código utilizado para a criação da tabela
-[Link para o Notebook](https://github.com/MatheusBulhoes/MC536-Trabalho/blob/main/stage04/notebooks/convert.ipynb)
+* [Link para o Notebook](https://github.com/MatheusBulhoes/MC536-Trabalho/blob/main/stage04/notebooks/convert.ipynb)
 
 ## Conjunto de queries de dois modelos
 
 > Queries realizadas nesta etapa
-[Link para o Notebook](https://github.com/MatheusBulhoes/MC536-Trabalho/blob/main/stage04/src/queries.md)
+* [Link para o Notebook](https://github.com/MatheusBulhoes/MC536-Trabalho/blob/main/stage04/src/queries.md)
 
 ## Bases de Dados
 > Bases de dados da etapa 4
