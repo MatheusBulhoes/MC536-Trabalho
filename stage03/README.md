@@ -21,8 +21,8 @@ TEMPERATURA(Maximo, Minimo, Media, _Data_)
 
 título da base | link | breve descrição
 ----- | ----- | -----
-Covid19 API | [link](https://api.covid19api.com/) | Contém os principais dados da covid, como contaminação, mortes e recuperados, em todos os países
-World Weather Online | [link](https://www.worldweatheronline.com/developer/api/docs/local-city-town-weather-api.aspx) | Contém informações históricas dos dados climáticos de diversas cidades do mundo
+Covid19 API | https://api.covid19api.com/ | Contém os principais dados da covid, como contaminação, mortes e recuperados, em todos os países
+World Weather Online | https://www.worldweatheronline.com/developer/api/docs/local-city-town-weather-api.aspx | Contém informações históricas dos dados climáticos de diversas cidades do mundo
 
 
 ## Arquivos de Dados
@@ -30,5 +30,5 @@ World Weather Online | [link](https://www.worldweatheronline.com/developer/api/d
 
 nome do arquivo | link | breve descrição
 ----- | ----- | -----
-Covid | [link](https://github.com/MatheusBulhoes/MC536-Trabalho/blob/main/stage03/data/covid.csv) | Tabela que apresenta os dados de Covid no Brasil para um certo intervalo de datas
-Temperatura | [link](https://github.com/MatheusBulhoes/MC536-Trabalho/blob/main/stage03/data/weather.csv) | Tabela que apresenta os dados da temperatura no Brasil para um certo intervalo de datas
+Covid | https://github.com/MatheusBulhoes/MC536-Trabalho/blob/main/stage03/data/covid.csv | Tabela que apresenta os dados de Covid no Brasil para um certo intervalo de datas
+Temperatura | https://github.com/MatheusBulhoes/MC536-Trabalho/blob/main/stage03/data/weather.csv | Tabela que apresenta os dados da temperatura no Brasil para um certo intervalo de datas
