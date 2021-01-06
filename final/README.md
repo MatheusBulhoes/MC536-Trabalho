@@ -51,8 +51,7 @@ A partir das tabelas geradas nas análises anteriores, geramos vários gráficos
 > A discussão dos resultados também pode ser feita aqui na medida em que os resultados são apresentados ou em seção independente. Aspectos importantes a serem discutidos: É possível tirar conclusões dos resultados? Quais? Há indicações de direções para estudo? São necessários trabalhos mais profundos?
 
 ## Conclusões
-Observamos que a influência da temperatura no aumento de casos confirmados é mínima e irrelevante com relação à influência que o comportamento social exerce.
-
+Não conseguimos observar uma influência da temperatura no aumento de casos confirmados relevante quando comparada à influência que o comportamento social exerce. Seria possível realizar um trabalho mais a fundo com mais conhecimento em estatística e análise de dados, porém com os resultados obtidos neste projeto, a conclusão é que o comportamento da doença pode ser considerado independente quanto à temperatura. Apesar do resultado não ter se mostrado o mais expressivo, o trabalho foi importante para aprendermos a utilizar diferentes bases e tipos de dados ao nosso favor e nos proveio mais conhecimento em relação a bancos de dados no geral.
 
 ## Modelo Conceitual Final
 
