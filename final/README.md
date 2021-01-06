@@ -19,20 +19,18 @@ Escolhemos abordar o tema da Covid-19 mediante o contexto da atual pandemia. Nos
 ## Detalhamento do Projeto
 Para a realização da etapa de seleção dos países utilizamos o modelo de grafos. Nosso objetivo foi agrupar os países por semelhanças climáticas e, assim, selecionar quais os países cujos dados relacionados à covid-19 seriam usados no decorrer do nosso projeto. Inicialmente, fizemos um programa em python para unir duas APIs, uma vez que não conseguimos encontrar uma API que contivesse o nome do país, sua localização em termos de latitude e longitude e seus dados climáticos. Com a tabela que criamos, usando o NEO4J, verificamos os países com características climáticas próximas (temperatura, pressão e umidade) e tentamos separá-los em grupos de acordo com similaridade. A análise no NEO4J consistiu em: Importar a tabela criada anteriormente e criar os nós, conectar os países com características similares em termos de temperatura, pressão e umidade (consideramos que os países que possuem os 3 tipos de relações de similaridade possuem uma similaridade climática), determinar os países com os quais um determinado país é semelhante e visualizar graficamente os grupos de países similares entre si. Para os cinco grupos expressivos que foram encontrados com a análise escolhemos os seguintes países:
 
-<p>
-Malásia, Brunei
-Estados Unidos, Holanda, Coreia do Sul
-Egito, Emirados Árabes
-Uruguai, Brasil, Costa do Marfim
-Senegal, Sudão
-</p>
+Malásia, Brunei <br/>
+Estados Unidos, Holanda, Coreia do Sul <br/>
+Egito, Emirados Árabes <br/>
+Uruguai, Brasil, Costa do Marfim <br/>
+Senegal, Sudão <br/>
 
-Para abranger um período de tempo suficiente para a realização da análise, escolhemos os cinco períodos listados a seguir:
-10/03 à 20/03
-10/05 à 20/05
-10/07 à 20/07
-10/09 à 20/09
-10/11 à 20/11 
+Para abranger um período de tempo suficiente para a realização da análise, escolhemos os cinco períodos listados a seguir: <br/>
+10/03 à 20/03 <br/>
+10/05 à 20/05 <br/>
+10/07 à 20/07 <br/>
+10/09 à 20/09 <br/>
+10/11 à 20/11 <br/>
 
 Na etapa de relacionamento do número de casos confirmados com as condições climáticas de cada país utilizamos o modelo relacional e a linguagem SQL. Inicialmente realizamos uma análise preliminar correspondente a etapa 3 do projeto, em seguida estendemos essa análise para abranger todos os países que fazem parte do nosso grupo de interesse. A análise preliminar consistiu em: importar as tabelas Covid-19 e Temperatura, selecionar um intervalo de datas a partir da tabela Covid-19, alterar a coluna “Data” da tabela Covid-19 para um formato padrão de data para que houvesse compatibilidade entre os formatos de datas das duas tabelas, fazer a junção dessas tabelas a partir da data e calcular o crescimento percentual de casos confirmados.O fluxograma a seguir representa essa análise:
 ![fluxograma](https://github.com/MatheusBulhoes/MC536-Trabalho/blob/main/final/images/Fluxograma%20analise%20preliminar%20etapa%203.png)
