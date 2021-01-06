@@ -34,6 +34,7 @@ Para abranger um período de tempo suficiente para a realização da análise, e
 10/11 à 20/11 <br/>
 
 Na etapa de relacionamento do número de casos confirmados com as condições climáticas de cada país utilizamos o modelo relacional e a linguagem SQL. Inicialmente realizamos uma análise preliminar correspondente a etapa 3 do projeto, em seguida estendemos essa análise para abranger todos os países que fazem parte do nosso grupo de interesse. A análise preliminar consistiu em: importar as tabelas Covid-19 e Temperatura, selecionar um intervalo de datas a partir da tabela Covid-19, alterar a coluna “Data” da tabela Covid-19 para um formato padrão de data para que houvesse compatibilidade entre os formatos de datas das duas tabelas, fazer a junção dessas tabelas a partir da data e calcular o crescimento percentual de casos confirmados.O fluxograma a seguir representa essa análise:
+
 ![fluxograma](https://github.com/MatheusBulhoes/MC536-Trabalho/blob/main/final/images/Fluxograma%20analise%20preliminar%20etapa%203.png)
 
 Para a análise complementar repetimos o que foi implementado na análise preliminar, porém com um volume maior de dados, considerando que a análise foi estendida para 11 países e 5 intervalos de tempo para cada um deles. 
