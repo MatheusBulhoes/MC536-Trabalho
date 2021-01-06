@@ -41,12 +41,10 @@ plt.show();
 
 ## Modelo Conceitual Final
 
-> Modelo conceitual final em ER
-> ![ER Modelo](https://github.com/MatheusBulhoes/MC536-Trabalho/blob/main/final/images/Modelo%20Conceitual.png)
+![ER Modelo](https://github.com/MatheusBulhoes/MC536-Trabalho/blob/main/final/images/Modelo%20Conceitual.png)
 
 ## Modelos Lógicos Finais
 
-> Modelo relacional final do projeto
 ~~~
 COVID(Confirmados, Mortes, Recuperados, Ativos, _Data_)
 TEMPERATURA(Maximo, Minimo, Media, _Data_)
