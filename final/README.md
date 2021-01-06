@@ -47,10 +47,10 @@ A partir das tabelas geradas nas análises anteriores, geramos vários gráficos
 <p>Por fim, é importante ressaltar que ao longo das etapas do projeto, apesar do êxito conquistado na maioria dos objetivos pontuais de cada tarefa, havia constantemente a incerteza quanto a se obteríamos, de fato, um resultado final coerente. Apesar disso, optamos por não realizar mudanças quanto ao objetivo do projeto entre duas diferentes etapas. </p>
 
 ## Resultados e Discussão
-Para que fosse mais prático para analizar os resultados, decidimos plotar os dados obtidos em python e obter os resultados mais visualmente a partir deles. Eles podem ser encontrados na pasta de [imagens](https://github.com/MatheusBulhoes/MC536-Trabalho/tree/main/final/images)
+Para que fosse mais prático para analizar os resultados, decidimos plotar os dados obtidos em python e obter os resultados mais visualmente a partir deles. Eles podem ser encontrados na pasta de [imagens](https://github.com/MatheusBulhoes/MC536-Trabalho/tree/main/final/images). <br/>
 O primeiro resultado importante que encontramos foi que o número bruto de casos permaneceu, na grande maioria dos países, com um crescimento constante ao longo do tempo, independendemente do grupo de semelhança climática e da temperatura naquela época do ano. Temos como exemplo o gráfico do Brasil em maio:
 
-![BR](https://github.com/MatheusBulhoes/MC536-Trabalho/blob/main/final/images/Brazil/5_2020.png)
+<img src="https://some-img-host.com/1234567/image.png" width=100 align=right>
 
 
 
