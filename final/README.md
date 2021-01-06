@@ -25,7 +25,8 @@ Egito, Emirados Árabes <br/>
 Uruguai, Brasil, Costa do Marfim <br/>
 Senegal, Sudão <br/>
 
-Para abranger um período de tempo suficiente para a realização da análise, escolhemos os cinco períodos listados a seguir: <br/>
+Para abranger um período de tempo suficiente para a realização da análise, escolhemos os cinco períodos listados a seguir:
+
 10/03 à 20/03 <br/>
 10/05 à 20/05 <br/>
 10/07 à 20/07 <br/>
