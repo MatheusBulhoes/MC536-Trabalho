@@ -1,9 +1,9 @@
-## Projeto `Relacionando Covid e Clima`
+## Projeto Relacionando Covid e Clima
 
-## Equipe `MIL`
-* `Matheus Bulhões Barbosa`
-* `Isabela Caroline de Sousa`
-* `Lucas Antevere Santana`
+## Equipe MIL
+* Matheus Bulhões Barbosa
+* Isabela Caroline de Sousa
+* Lucas Antevere Santana
 
 ## Slides da Apresentação da Etapa Final
 
