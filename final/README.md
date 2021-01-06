@@ -18,11 +18,14 @@ Escolhemos abordar o tema da Covid-19 mediante o contexto da atual pandemia. Nos
 
 ## Detalhamento do Projeto
 Para a realização da etapa de seleção dos países utilizamos o modelo de grafos. Nosso objetivo foi agrupar os países por semelhanças climáticas e, assim, selecionar quais os países cujos dados relacionados à covid-19 seriam usados no decorrer do nosso projeto. Inicialmente, fizemos um programa em python para unir duas APIs, uma vez que não conseguimos encontrar uma API que contivesse o nome do país, sua localização em termos de latitude e longitude e seus dados climáticos. Com a tabela que criamos, usando o NEO4J, verificamos os países com características climáticas próximas (temperatura, pressão e umidade) e tentamos separá-los em grupos de acordo com similaridade. A análise no NEO4J consistiu em: Importar a tabela criada anteriormente e criar os nós, conectar os países com características similares em termos de temperatura, pressão e umidade (consideramos que os países que possuem os 3 tipos de relações de similaridade possuem uma similaridade climática), determinar os países com os quais um determinado país é semelhante e visualizar graficamente os grupos de países similares entre si. Para os cinco grupos expressivos que foram encontrados com a análise escolhemos os seguintes países:
+
+<p>
 Malásia, Brunei
 Estados Unidos, Holanda, Coreia do Sul
 Egito, Emirados Árabes
 Uruguai, Brasil, Costa do Marfim
 Senegal, Sudão
+</p>
 
 Para abranger um período de tempo suficiente para a realização da análise, escolhemos os cinco períodos listados a seguir:
 10/03 à 20/03
