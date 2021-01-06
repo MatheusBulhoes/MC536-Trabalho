@@ -47,8 +47,12 @@ A partir das tabelas geradas nas análises anteriores, geramos vários gráficos
 <p>Por fim, é importante ressaltar que ao longo das etapas do projeto, apesar do êxito conquistado na maioria dos objetivos pontuais de cada tarefa, havia constantemente a incerteza quanto a se obteríamos, de fato, um resultado final coerente. Apesar disso, optamos por não realizar mudanças quanto ao objetivo do projeto entre duas diferentes etapas. </p>
 
 ## Resultados e Discussão
-> Apresente os resultados da forma mais rica possível, com gráficos e tabelas. Mesmo que o seu código rode online em um notebook, copie para esta parte a figura estática. A referência a código e links para execução online pode ser feita aqui ou na seção de detalhamento do projeto (o que for mais pertinente).
-> A discussão dos resultados também pode ser feita aqui na medida em que os resultados são apresentados ou em seção independente. Aspectos importantes a serem discutidos: É possível tirar conclusões dos resultados? Quais? Há indicações de direções para estudo? São necessários trabalhos mais profundos?
+Para que fosse mais prático para analizar os resultados, decidimos plotar os dados obtidos em python e obter os resultados mais visualmente a partir deles. Eles podem ser encontrados na pasta de [imagens](https://github.com/MatheusBulhoes/MC536-Trabalho/tree/main/final/images)
+O primeiro resultado importante que encontramos foi que o número bruto de casos permaneceu, na grande maioria dos países, com um crescimento constante ao longo do tempo, independendemente do grupo de semelhança climática e da temperatura naquela época do ano. Temos como exemplo o gráfico do Brasil em maio:
+
+![BR](https://github.com/MatheusBulhoes/MC536-Trabalho/blob/main/final/images/Brazil/5_2020.png)
+
+
 
 ## Conclusões
 Não conseguimos observar uma influência da temperatura no aumento de casos confirmados relevante quando comparada à influência que o comportamento social exerce. Seria possível realizar um trabalho mais a fundo com mais conhecimento em estatística e análise de dados, porém com os resultados obtidos neste projeto, a conclusão é que o comportamento da doença pode ser considerado independente quanto à temperatura. Apesar do resultado não ter se mostrado o mais expressivo, o trabalho foi importante para aprendermos a utilizar diferentes bases e tipos de dados ao nosso favor e nos proveio mais conhecimento em relação a bancos de dados no geral.
