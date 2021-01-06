@@ -66,15 +66,17 @@ TEMPERATURA(Maximo, Minimo, Media, _Data_)
 
 título da base | link | breve descrição
 ----- | ----- | -----
-`<título da base>` | `<link para a página da base>` | `<breve descrição da base>`
+Covid19 API | https://api.covid19api.com/ | Contém os principais dados da covid, como contaminação, mortes e recuperados, em todos os países
+World Weather Online | https://www.worldweatheronline.com/developer/api/docs/local-city-town-weather-api.aspx | Contém informações históricas dos dados climáticos de diversas cidades do mundo
+Ip Geolocation API | https://api.ipgeolocationapi.com/countries | Contém as coordenadas geográficas da maioria das cidades e países. Será usada em conjunto com a Open Weather Map pois essa requer as coordenadas para buscar os dados climáticos
+Open Weather Map | http://api.openweathermap.org/data/ |  Contém os dados de temperatura, pressão e umidade dos países a partir de sua latitude e longitude
 
 ## Arquivos de Dados
-> Elencar os arquivos usados no projeto que estão disponíveis no Github do projeto. Apresente todos os arquivos usados na versão final, mesmo aqueles que tenham sido apresentadas em etapas anteriores.
 
 nome do arquivo | link | breve descrição
 ----- | ----- | -----
-`<nome do arquivo>` | `<link para o arquivo>` | `<breve descrição do arquivo>`
-
-> Os arquivos devem ser colocados na pasta `data`, em subpasta conforme seu papel (externo, interim, processado, raw). A diferença entre externo e raw é que o raw é em formato não adaptado para uso. A pasta `raw` é opcional, pois pode ser substituída pelo link para a base original da seção anterior.
-> Coloque arquivos relacionais (usualmente CSV), XML ou JSON que não estejam disponíveis online e sejam acessados pelo notebook.
-
+Covid | https://github.com/MatheusBulhoes/MC536-Trabalho/blob/main/final/data/interim/covid.csv | Tabela que apresenta os dados da Covid nos países escolhidos para os intervalos de datas escolhidos
+Clima | https://github.com/MatheusBulhoes/MC536-Trabalho/blob/main/final/data/interim/weather.csv | Tabela que apresenta os dados climáticos nos países escolhidos para os intervalos de datas escolhidos
+Clima-Países | https://github.com/MatheusBulhoes/MC536-Trabalho/blob/main/stage04/data/countries_weather.csv | Tabela relacionando os dados climáticos de todos os países, usado na seleção dos países
+Conteúdo Total | https://github.com/MatheusBulhoes/MC536-Trabalho/blob/main/final/data/processed/content.csv | Tabela que contém tanto os dados climáticos quanto os dados da Covid nos mesmos intervalos de data
+Conteúdo Percentual | https://github.com/MatheusBulhoes/MC536-Trabalho/blob/main/final/data/processed/content_percent.csv | Tabela que contém os dados percentuais tanto climáticos quanto da Covid nos mesmos intervalos de data
