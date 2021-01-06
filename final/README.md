@@ -10,11 +10,11 @@
 * [Link para os slides](https://github.com/MatheusBulhoes/MC536-Trabalho/blob/main/final/slides/pp%20banco%20de%20dados.pdf)
 
 ## Resumo do Projeto
-> Texto resumindo o projeto.
+Relacionamos dados como temperatura, umidade e pressão de países com diferentes características com informações sobre a doença como contaminação diária. Primeiro fizemos a seleção de países com diferentes condições climáticas, em seguida, escolhemos o período de tempo para análise, e depois, relacionamos o número de casos com as condições climáticas durante o intervalo de tempo anteriormente selecionado. Para fazer a análise dos resultados tentamos minimizar influências externas (comportamento social e ações governamentais) e buscar por padrões na evolução da doença
 
 ## Motivação e Contexto
 
-> Escolhemos abordar o tema da Covid-19 mediante o contexto da atual pandemia. Nosso objetivo nesse projeto de MC 536 é verificar a relação entre os picos de contaminação da doença e as condições geoclimáticas em diferentes partes do mundo. Nossa ideia surgiu diante das especulações disseminadas no início da pandemia acerca do caráter sazonal do vírus, as quais corroboram com crenças equivocadas como, por exemplo, que a contaminação no Brasil não seria massiva em razão das altas temperaturas do país.
+Escolhemos abordar o tema da Covid-19 mediante o contexto da atual pandemia. Nosso objetivo nesse projeto de MC 536 é verificar a relação entre os picos de contaminação da doença e as condições geoclimáticas em diferentes partes do mundo. Nossa ideia surgiu diante das especulações disseminadas no início da pandemia acerca do caráter sazonal do vírus, as quais corroboram com crenças equivocadas como, por exemplo, que a contaminação no Brasil não seria massiva em razão das altas temperaturas do país.
 
 ## Detalhamento do Projeto
 > Apresente aqui detalhes da análise. Nesta seção ou na seção de Resultados podem aparecer destaques de código como indicado a seguir. Note que foi usada uma técnica de highlight de código, que envolve colocar o nome da linguagem na abertura de um trecho com `~~~`, tal como `~~~python`.
@@ -62,7 +62,6 @@ TEMPERATURA(Maximo, Minimo, Media, _Data_)
 > Apresente todas as suas queries em versão final, mesmo que tenham aparecido em etapas anteriores.
 
 ## Bases de Dados
-> Elencar as bases de dados utilizadas no projeto. Apresente todas as bases usadas na versão final, mesmo aquelas que tenham sido apresentadas em etapas anteriores.
 
 título da base | link | breve descrição
 ----- | ----- | -----
