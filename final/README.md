@@ -50,23 +50,23 @@ A partir das tabelas geradas nas análises anteriores, geramos vários gráficos
 Para que fosse mais prático para analizar os resultados, decidimos plotar os dados obtidos em python e obter os resultados mais visualmente a partir deles. Eles podem ser encontrados na pasta de [imagens](https://github.com/MatheusBulhoes/MC536-Trabalho/tree/main/final/images). <br/>
 O primeiro resultado importante que encontramos foi que o número bruto de casos permaneceu, na grande maioria dos países, com um crescimento constante ao longo do tempo, independendemente do grupo de semelhança climática e da temperatura naquela época do ano. Temos como exemplo o gráfico do Brasil em maio:
 
-<img src="https://github.com/MatheusBulhoes/MC536-Trabalho/blob/main/final/images/Brazil/5_2020.png" width=400 style="vertical-align:middle">
+<img src="https://github.com/MatheusBulhoes/MC536-Trabalho/blob/main/final/images/Brazil/5_2020.png" width=500 style="vertical-align:middle">
 
 Para conseguir resultados mais expressivos, fizemos uma análise percentual nos dados que tínhamos anteriormente e novamente plotamos para todos os países. Ao contrário do que houve na análise bruta dos dados, os gráficos em percentuais tiveram uma tendência a decair ao longo dos meses, porém com uma variância muito maior ao longo dos dias e dos países. Com isso, tentamos analisar grupo a grupo, conforme tínhamos planejado quando selecionamos os países.
 
-O primeiro grupo onde foi realizada a análise continha os países Sudão, Senegal e Malásia. Neste grupo, observamos que no Senegal e no Sudão os casos percentuais da Covid eram decrescente ao longo do ano, com a diverença de um pico crescente em novembro no Senegal. No caso da malásia, houve um vale em Julho, onde os casos percentuais passaram de decrescente para crescente até o final do ano.
+* O primeiro grupo onde foi realizada a análise continha os países Sudão, Senegal e Malásia. Neste grupo, observamos que no Senegal e no Sudão os casos percentuais da Covid eram decrescente ao longo do ano, com a diverença de um pico crescente em novembro no Senegal. No caso da malásia, houve um vale em Julho, onde os casos percentuais passaram de decrescente para crescente até o final do ano.
 
-No segundo grupo, temos o Uruguai, o Brasil e a Costa do Marfim. Os dados no Uruguai, ao contrário do esperado, revelaram que o crescimento da doença no país foi percentualmente constante ao longo do ano, enquanto a Costa do Marfim e o Brasil tiveram uma queda constante ao longo do ano todo. É importante frisar que a queda percentual constante no Brasil se deve muito ao crescimento gigantesco nos casos brutos, que chegaram a atingir praticamente 1 milhão de novas vítimas por mês.
+* No segundo grupo, temos o Uruguai, o Brasil e a Costa do Marfim. Os dados no Uruguai, ao contrário do esperado, revelaram que o crescimento da doença no país foi percentualmente constante ao longo do ano, enquanto a Costa do Marfim e o Brasil tiveram uma queda constante ao longo do ano todo. É importante frisar que a queda percentual constante no Brasil se deve muito ao crescimento gigantesco nos casos brutos, que chegaram a atingir praticamente 1 milhão de novas vítimas por mês.
 
-O terceiro grupo continha o Egito e os Emirados Árabes Unidos. Ambos os países foram apresentados com um comportamento decrescente da doença ao longo de todo o ano, com a diferença que os Emirados teve um pico crescente em Setembro.
+* O terceiro grupo continha o Egito e os Emirados Árabes Unidos. Ambos os países foram apresentados com um comportamento decrescente da doença ao longo de todo o ano, com a diferença que os Emirados teve um pico crescente em Setembro.
 
-Por fim, no último grupo temos a Coreia, que teve, ao contrário do esperado, casos percentuais crescentes desde o início do ano e a Holanda, onde a doença também mostrou um comportamento decrescente, com a excessão de Setembro, onde houve a segunda onda na Europa, situação que já temos conhecimento que a influência principal foi a reabertura das cidades e dos estabelecimentos pouco tempo antes dos novos crescimentos dos casos.
+* Por fim, no último grupo temos a Coreia, que teve, ao contrário do esperado, casos percentuais crescentes desde o início do ano e a Holanda, onde a doença também mostrou um comportamento decrescente, com a excessão de Setembro, onde houve a segunda onda na Europa, situação que já temos conhecimento que a influência principal foi a reabertura das cidades e dos estabelecimentos pouco tempo antes dos novos crescimentos dos casos.
 
 À primeira vista, observamos que todos os grupos de semelhança climática continham diferenças consideráveis entre seus países, de modo em que não houvesse um padrão de comportamento da doença que se baseasse principalmente no clima do país. Depois disso, procuramos uma visão mais abrangente, analisando o dados de todos os países em conjunto e procurando por comportamentos em comum em função das mudanças de temperatura. Com esta análise, porém, encontramos o oposto do esperado: casos onde a temperatura se comportou de maneira semelhante e a doença não manteve a mesma uniformidade, ressaltando a conclusão de que não se encontrava nenhum tipo de correlação entre os dois dados. Entre tais exemplos, estão:
 
 * Holanda e Costa do Marfim - A temperatura nos dois países se manteve a mesma entre os meses 7 e 9. Os casos percentuais na Holanda cresceram em 10 vezes, enquanto os casos na Costa do Marfim se reduziram em 10 vezes, como pode ser visto na imagem:
 
-<img src="https://github.com/MatheusBulhoes/MC536-Trabalho/blob/main/final/images/casoHolandaCosta.png" width=1000 style="vertical-align:middle">
+<img src="https://github.com/MatheusBulhoes/MC536-Trabalho/blob/main/final/images/casoHolandaCosta.png" width=800 style="vertical-align:middle">
 
 * Egito e Emirados Árabes - Casos com temperaturas altíssimas, acima dos 40 graus em média. Nos Emirados, a contaminação estava baixa, enquanto no Egito estava alta.
 
