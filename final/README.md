@@ -54,12 +54,17 @@ TEMPERATURA(Maximo, Minimo, Media, _Data_)
 
 ## Programa de extração e conversão de dados atualizado
 
-> Coloque um link para o arquivo do notebook que executa a extração e conversão de dados. Ele estará dentro da pasta `notebook`. Se por alguma razão o código não for executável no Jupyter, coloque na pasta `src`. Se a extração e conversão envolverem queries executadas através de uma interface de um SGBD não executável no Jupyter, como o Cypher, apresente na forma de markdown.
+* [Criação da tabela Covid](https://github.com/MatheusBulhoes/MC536-Trabalho/blob/main/final/notebooks/covid_convert.ipynb)
+* [Criação da tabela Clima](https://github.com/MatheusBulhoes/MC536-Trabalho/blob/main/final/notebooks/weather_convert.ipynb)
+* [Criação da tabela Clima-Países](https://github.com/MatheusBulhoes/MC536-Trabalho/blob/main/stage04/notebooks/convert.ipynb)
 
 ## Conjunto de queries para todos os modelos
 
-> Acrescente um link para o(s) arquivo(s) do(s) notebook(s) que executa(m) as queries para cada um dos modelos lógicos. Eles estarão dentro da pasta `notebook`. Se por alguma razão o código não for executável no Jupyter, coloque na pasta `src`. Se as queries forem executadas através de uma interface de um SGBD não executável no Jupyter, como o Cypher, apresente na forma de markdown.
-> Apresente todas as suas queries em versão final, mesmo que tenham aparecido em etapas anteriores.
+* [Escolhendo países com semelhanças climáticas](https://github.com/MatheusBulhoes/MC536-Trabalho/blob/main/final/src/queries_cypher.md)
+* [Join entre Covid e Weather](https://github.com/MatheusBulhoes/MC536-Trabalho/blob/main/final/notebooks/join_content.ipynb)
+* [Colocando os dados da Covid em percentuais](https://github.com/MatheusBulhoes/MC536-Trabalho/blob/main/final/notebooks/percent_convert.ipynb)
+* [Plotando os gráficos](https://github.com/MatheusBulhoes/MC536-Trabalho/blob/main/final/plot_content.ipynb)
+* [Plotando os gráficos em percentuais](https://github.com/MatheusBulhoes/MC536-Trabalho/blob/main/final/plot_percent.ipynb)
 
 ## Bases de Dados
 
@@ -78,4 +83,4 @@ Covid | https://github.com/MatheusBulhoes/MC536-Trabalho/blob/main/final/data/in
 Clima | https://github.com/MatheusBulhoes/MC536-Trabalho/blob/main/final/data/interim/weather.csv | Tabela que apresenta os dados climáticos nos países escolhidos para os intervalos de datas escolhidos
 Clima-Países | https://github.com/MatheusBulhoes/MC536-Trabalho/blob/main/stage04/data/countries_weather.csv | Tabela relacionando os dados climáticos de todos os países, usado na seleção dos países
 Conteúdo Total | https://github.com/MatheusBulhoes/MC536-Trabalho/blob/main/final/data/processed/content.csv | Tabela que contém tanto os dados climáticos quanto os dados da Covid nos mesmos intervalos de data
-Conteúdo Percentual | https://github.com/MatheusBulhoes/MC536-Trabalho/blob/main/final/data/processed/content_percent.csv | Tabela que contém os dados percentuais tanto climáticos quanto da Covid nos mesmos intervalos de data
+Conteúdo Percentual | https://github.com/MatheusBulhoes/MC536-Trabalho/blob/main/final/data/processed/content_percent.csv | Tabela que contém os tanto os dados climáticos quanto os dados percentuais da Covid nos mesmos intervalos de data
