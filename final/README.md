@@ -51,7 +51,8 @@ A partir das tabelas geradas nas análises anteriores, geramos vários gráficos
 > A discussão dos resultados também pode ser feita aqui na medida em que os resultados são apresentados ou em seção independente. Aspectos importantes a serem discutidos: É possível tirar conclusões dos resultados? Quais? Há indicações de direções para estudo? São necessários trabalhos mais profundos?
 
 ## Conclusões
-> Apresente aqui as conclusões finais do trabalho e as lições aprendidas.
+Observamos que a influência da temperatura no aumento de casos confirmados é mínima e irrelevante com relação à influência que o comportamento social exerce.
+
 
 ## Modelo Conceitual Final
 
