@@ -97,8 +97,8 @@ TEMPERATURA(Maximo, Minimo, Media, _Data_)
 * [Escolhendo países com semelhanças climáticas](https://github.com/MatheusBulhoes/MC536-Trabalho/blob/main/final/src/queries_cypher.md)
 * [Join entre Covid e Weather](https://github.com/MatheusBulhoes/MC536-Trabalho/blob/main/final/notebooks/join_content.ipynb)
 * [Colocando os dados da Covid em percentuais](https://github.com/MatheusBulhoes/MC536-Trabalho/blob/main/final/notebooks/percent_convert.ipynb)
-* [Plotando os gráficos](https://github.com/MatheusBulhoes/MC536-Trabalho/blob/main/final/plot_content.ipynb)
-* [Plotando os gráficos em percentuais](https://github.com/MatheusBulhoes/MC536-Trabalho/blob/main/final/plot_percent.ipynb)
+* [Plotando os gráficos](https://github.com/MatheusBulhoes/MC536-Trabalho/blob/main/final/notebooks/plot_content.ipynb)
+* [Plotando os gráficos em percentuais](https://github.com/MatheusBulhoes/MC536-Trabalho/blob/main/final/notebooks/plot_percent.ipynb)
 
 ## Bases de Dados
 
